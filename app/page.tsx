@@ -21,9 +21,7 @@ async function getData() {
   return data;
 }
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div className="py-6">
       <h1 className="text-3xl font-bold tracking-tight mb-8">Latest posts</h1>

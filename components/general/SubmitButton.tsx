@@ -2,9 +2,7 @@
 import { useFormStatus } from "react-dom";
 import { Button } from "../ui/button";
 
-type Props = {};
-
-const SubmitButton = (props: Props) => {
+const SubmitButton = () => {
   const { pending } = useFormStatus();
   return (
     <Button className="w-fit" type="submit" disabled={pending}>
