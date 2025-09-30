@@ -1,11 +1,15 @@
 A small blog application built with Next.js.
 
 Authentication: Kinde
+
 Database: Prisma (ORM)
+
 Styling: Tailwind CSS + Shadcn
+
 Added Next.js Middleware for protecting routes and handling redirects
 
 The project was created as a pet project to practice modern full-stack development with Next.js.
+
 
 App overview
 
